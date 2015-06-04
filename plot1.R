@@ -13,5 +13,5 @@ names(hpc) <- names(test)
 
 # Plotting the required graph and saving it in the prescribed format
 png("./plot1.png", width = 480, height = 480)
-hist(hpc$Global_active_power, xlab = "Global Active Power (kilowatts)", ylab = "Frequency", col = "red", main = NULL)
+hist(hpc$Global_active_power, xlab = "Global Active Power (kilowatts)", ylab = "Frequency", col = "red", main = "Global Active Power")
 dev.off()
