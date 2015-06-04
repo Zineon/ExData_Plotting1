@@ -23,5 +23,5 @@ plot(hpc$datetime, hpc$Sub_metering_1, type = "l", xlab = "", ylab = "Energy sub
 lines(hpc$datetime, hpc$Sub_metering_2, type = "l", col = "red", xlab = NULL)
 lines(hpc$datetime, hpc$Sub_metering_3, type = "l", col = "blue", xlab = NULL)
 legend("topright", col = c("black", "red", "blue"), lty=1, lwd=2, bty="n", legend =  c("Sub_metering_1","Sub_metering_2", "Sub_metering_3"))
-plot(hpc$datetime, hpc$Global_active_power, type = "l", xlab = "datetime", ylab = "Global_active_power")
+plot(hpc$datetime, hpc$Global_reactive_power, type = "l", xlab = "datetime", ylab = "Global_reactive_power")
 dev.off()
